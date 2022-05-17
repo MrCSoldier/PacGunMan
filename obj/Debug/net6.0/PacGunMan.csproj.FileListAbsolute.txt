@@ -1,0 +1,15 @@
+E:\Users\Nullify\PacGunMan\bin\Debug\net6.0\PacGunMan.exe
+E:\Users\Nullify\PacGunMan\bin\Debug\net6.0\PacGunMan.deps.json
+E:\Users\Nullify\PacGunMan\bin\Debug\net6.0\PacGunMan.runtimeconfig.json
+E:\Users\Nullify\PacGunMan\bin\Debug\net6.0\PacGunMan.dll
+E:\Users\Nullify\PacGunMan\bin\Debug\net6.0\PacGunMan.pdb
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.csproj.AssemblyReference.cache
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.AssemblyInfoInputs.cache
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.AssemblyInfo.cs
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.csproj.CoreCompileInputs.cache
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.dll
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\refint\PacGunMan.dll
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.pdb
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.genruntimeconfig.cache
+E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\ref\PacGunMan.dll
