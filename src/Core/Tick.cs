@@ -5,35 +5,11 @@ namespace PacGunMan
     public static class Tick
     {
 
-
-
-
-
-
-        class ProcesseddPart
-        {
-            public string PartNumber {get; set;}
-            public string FileName {get;set;}
-        }
-
-
-
-
-
-
-
-
-
-
-
         public static void Start()
         {
             
-            Dictionary<string, int[]> entities = new() {
-                { "@", new int[] { 3, 5 } },
-                { "X", new int[] { 4, 5 } }
-            };
-            // entities.Add("@", new int[] { 3, 5 } );
+            List<KeyValuePair<string, int[]>> entities = new() {};
+            entities.Add(KeyValuePair.Create("@", new int[] { 3, 5 }));
             string direction = "right";
             int[] pos = Map.GetMap("test").Item2;
             // Console.WriteLine()
@@ -41,7 +17,7 @@ namespace PacGunMan
             Update(pos, direction, entities);
         }
 
-        private static void Update(int[] pos, string direction, Dictionary<string, int[]> entities)
+        private static void Update(int[] pos, string direction, List<KeyValuePair<string, int[]>> entities)
         {
             (pos, direction) = Core.Input.Detect(pos, direction);
             // direction = Core.Input.Detect(pos, direction).Item2;

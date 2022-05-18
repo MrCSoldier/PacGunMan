@@ -2,7 +2,7 @@ namespace PacGunMan
 {
     public static class Graphics
     {
-        public static void Render(char[,] item, Dictionary<string, int[]> entities)
+        public static void Render(char[,] item, List<KeyValuePair<string, int[]>> entities)
         {
 
             string line = "";
