@@ -15,10 +15,10 @@ namespace PacGunMan
                             if (y == currEntityPos[1]) {
                                 line += entities.ElementAt(e).Key; 
                             } else {
-                                line += item[x, y]; 
+                                line += item[y, x];
                             }
                         } else {
-                            line += item[x, y];
+                            line += item[y, x];
                         }
                     }
 
