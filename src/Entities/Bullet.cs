@@ -1,4 +1,4 @@
-namespace PacGunMan.src.Entities
+namespace PacGunMan.Entities
 {
     public class Bullet
     {

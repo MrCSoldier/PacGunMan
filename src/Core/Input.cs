@@ -50,7 +50,8 @@ namespace PacGunMan.Core
                     if (Collision.Check(chkXY[0], chkXY[1] + 1)) return (new int[] { xy[0], xy[1]}, direction);
                     return (new int[] { xy[0], xy[1] + 1}, direction);
                 case " ":
-                    return (new int[] { xy[0], xy[1]}, direction);
+                    // Entities.Bullet
+                    return (xy, direction);
                 default:
                     return (new int[] { xy[0], xy[1]}, direction);
             }
