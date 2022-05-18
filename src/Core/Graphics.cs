@@ -7,8 +7,8 @@ namespace PacGunMan
             string line = "";
             int[] currEntityPos = new int[2];
             Console.Clear();
-            for (int x = 0; x < item.GetLength(0); x++) {
-                for (int y = 0; y < item.GetLength(1); y++) {
+            for (int y = 0; y < item.GetLength(0); y++) {
+                for (int x = 0; x < item.GetLength(1); x++) {
                     for (int e = 0; e < entities.Count(); e++) {
                         currEntityPos = entities.ElementAt(e).Value;
                         if (x == currEntityPos[0]) {
