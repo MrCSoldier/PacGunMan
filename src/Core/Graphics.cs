@@ -10,7 +10,8 @@ namespace PacGunMan
             {
                 for (int y = 0; y < item.GetLength(1); y++)
                 {
-                    if (entities.List.Count() > 0) { 
+                    if (entities.List.Count() > 0)
+                    {
                         for (int e = 0; e < entities.List.Count(); e++)
                         {
                             currEntityPos = entities.List.ElementAt(e).Position;
@@ -23,35 +24,31 @@ namespace PacGunMan
                                 }
                                 else
                                 {
-                                    if (item[x, y].ToString() == "#" || item[x, y].ToString() == "=" || item[x, y].ToString() == " ") {
+                                    if (item[x, y].ToString() == "#" || item[x, y].ToString() == "=" || item[x, y].ToString() == " ")
+                                    {
                                         line += item[x, y] + " ";
-                                    } 
-                                    if (item[x, y].ToString() == "─") {
+                                    }
+                                    if (item[x, y].ToString() == "─")
+                                    {
                                         line += item[x, y] + "─";
                                     }
                                 }
                             }
                             else
                             {
-                                if (item[x, y].ToString() == "#" || item[x, y].ToString() == "=" || item[x, y].ToString() == " ") {
+                                if (item[x, y].ToString() == "#" || item[x, y].ToString() == "=" || item[x, y].ToString() == " ")
+                                {
                                     line += item[x, y] + " ";
-                                } 
-                                if (item[x, y].ToString() == "─") {
+                                }
+                                if (item[x, y].ToString() == "─")
+                                {
                                     line += item[x, y] + "─";
                                 }
                             }
                         }
-                    } else {
-                        if (item[x, y].ToString() == "#" || item[x, y].ToString() == "=" || item[x, y].ToString() == " " || item[x, y].ToString() == "│") {
-                            line += item[x, y] + " ";
-                        } 
-                        if (item[x, y].ToString() == "─") {
-                            line += item[x, y] + "─";
-                        }
                     }
 
                 }
-                // line = "";
                 line += "\n";
             }
             Console.Clear();
