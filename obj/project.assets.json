@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\Nullify\\PacGunMan\\PacGunMan.csproj",
+      "projectUniqueName": "H:\\Shared\\VSCode Projects\\PacGunMan\\PacGunMan.csproj",
       "projectName": "PacGunMan",
-      "projectPath": "E:\\Users\\Nullify\\PacGunMan\\PacGunMan.csproj",
+      "projectPath": "H:\\Shared\\VSCode Projects\\PacGunMan\\PacGunMan.csproj",
       "packagesPath": "C:\\Users\\Nullify\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\Nullify\\PacGunMan\\obj\\",
+      "outputPath": "H:\\Shared\\VSCode Projects\\PacGunMan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

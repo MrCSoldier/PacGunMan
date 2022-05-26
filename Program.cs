@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿//If Linux doesnt have dotnet, for development, go to this link to get the Snap Command to get dot net: https://docs.microsoft.com/en-us/dotnet/core/install/linux-snap
+
+using System.Collections.Generic;
 using PacGunMan;
 using PacGunMan.Entities;
 Console.Clear();

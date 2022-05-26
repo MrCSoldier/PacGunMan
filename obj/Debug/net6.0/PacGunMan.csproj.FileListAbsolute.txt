@@ -13,3 +13,33 @@ E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\refint\PacGunMan.dll
 E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.pdb
 E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\PacGunMan.genruntimeconfig.cache
 E:\Users\Nullify\PacGunMan\obj\Debug\net6.0\ref\PacGunMan.dll
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.csproj.AssemblyReference.cache
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.GeneratedMSBuildEditorConfig.editorconfig
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.AssemblyInfoInputs.cache
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.AssemblyInfo.cs
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.csproj.CoreCompileInputs.cache
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.dll
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\refint\PacGunMan.dll
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.pdb
+E:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.exe
+E:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.deps.json
+E:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.runtimeconfig.json
+E:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.dll
+E:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.pdb
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.genruntimeconfig.cache
+E:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\ref\PacGunMan.dll
+H:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.exe
+H:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.deps.json
+H:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.runtimeconfig.json
+H:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.dll
+H:\Shared\VSCode Projects\PacGunMan\bin\Debug\net6.0\PacGunMan.pdb
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.csproj.AssemblyReference.cache
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.GeneratedMSBuildEditorConfig.editorconfig
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.AssemblyInfoInputs.cache
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.AssemblyInfo.cs
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.csproj.CoreCompileInputs.cache
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.dll
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\refint\PacGunMan.dll
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.pdb
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\PacGunMan.genruntimeconfig.cache
+H:\Shared\VSCode Projects\PacGunMan\obj\Debug\net6.0\ref\PacGunMan.dll

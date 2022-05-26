@@ -1,28 +1,30 @@
 using System.Runtime.Serialization;
 using PacGunMan.Core;
+using static PacGunMan.Entities.Manager;
 namespace PacGunMan
 {
     public static class Tick
     {
-
+        static Entities.Manager.State eState = new();
         public static void Start()
         {
-            
-            List<KeyValuePair<string, int[]>> entities = new() {};
-            entities.Add(KeyValuePair.Create("@", new int[] { 3, 5 }));
+            eState.List = eState.Add("@", new int[] { 2 * 3, 2* 5 });
+            Console.WriteLine(eState.GetInfo());
+            // var player = 
             string direction = "right";
+            // Console.WriteLine("[Tick.Start]: " + entities.List.Count());
+            // entities.Add("@", new int[] { 3, 5 });
             int[] pos = Map.GetMap("test").Item2;
-            // Console.WriteLine()
-            Console.WriteLine("Initial Pos: " + pos[0] + ":" + pos[1]);
-            Update(pos, direction, entities);
+            // Console.WriteLine("[Tick.Start]: " + eState.List.Count());
+            var palyer = eState.List[0];
+            Update(eState, palyer, direction);
         }
 
-        private static void Update(int[] pos, string direction, List<KeyValuePair<string, int[]>> entities)
+        private static void Update(State eState, State player, string direction)
         {
-            (pos, direction) = Core.Input.Detect(pos, direction);
-            // direction = Core.Input.Detect(pos, direction).Item2;
-            Graphics.Render(Map.GetMap("test").Item1, entities);
-            Update(pos, direction, entities);
+            (eState, direction) = Input.Detect(eState, direction);
+            Graphics.Render(Map.GetMap("test").Item1, eState);
+            Update(eState, player, direction);
         }
 
         private static string GetChar(int x, int y)
@@ -31,5 +33,3 @@ namespace PacGunMan
         }
     }
 }
-
-//return new int[] { xy[0] + 1, xy[1] };
