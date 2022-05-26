@@ -33,7 +33,7 @@ namespace PacGunMan
                             }
                             else
                             {
-                                if (item[x, y].ToString() == "#" || item[x, y].ToString() == "=" || item[x, y].ToString() == " ") {
+                                if (item[x, y].ToString() == "#" || item[x, y].ToString() == "X" || item[x, y].ToString() == "=" || item[x, y].ToString() == " ") {
                                     line += item[x, y] + " ";
                                 } 
                                 if (item[x, y].ToString() == "─") {
