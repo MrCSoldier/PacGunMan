@@ -1,9 +1,11 @@
 namespace PacGunMan
 {
+    /* Makes the class not requre the "PacGunMan.Map map = new()"
+    or "PacGunMan.Map map = new PacGunMan.Map()" as this is a static class */
     public static class Map
     {
 
-
+        // Function will return both the two dimentioanl character array and the intiger array
         public static (char[,], int[]) GetMap(string mapName)
         {
             // public static char[,] testMap = new char[,] {};
