@@ -7,7 +7,10 @@ namespace PacGunMan
         public static (char[,], int[]) GetMap(string mapName)
         {
             // public static char[,] testMap = new char[,] {};
+            // initialize variables 
             char[,] map = new char[,] { };
+
+            // Check if the value is "test"
             if (mapName == "test")
             {
                 map = new char[,] {
@@ -33,6 +36,7 @@ namespace PacGunMan
                 // x = 3;
                 // y = 5;
             }
+            // return both map variable and the spawn point' array
             return (map, new int[] { 3, 5 });
         }
     }
