@@ -7,34 +7,37 @@ namespace PacGunMan.Entities
         public class State
         {
 
-            //Make Properties of position, Id and enitty
+            /* intialize  */
             public int ID { get; set; }
             public string Type { get; set; } = "";
             public int[] Position { get; set; } = new int[2];
             public List<State> List { get; set; } = new();
 
-            // public List<State> entities = new List<State>();
-
-
-
-            // public int[] Position { get; set; }
-            // public string Entity { get; set; }
-            // public int ID { get; set; }
-            // public List<State> List { get; set; }
-
-            // public EntityState eState = new();
+            /*  Function that returns a List with the data type of State class. 
+                requrires string variable and integer array variable */
             public List<State> Add(string ent, int[] pos)
             {
+                // create and instance of the current class 
                 State eState = new State();
-                // Console.WriteLine("Number of entities: " + eState.List.Count());
+                
+                // Get the amount of items in the list and output it.
                 Console.WriteLine("Number of entities: " + eState.List.Count());
+                // Get the current State ID and output it.
                 Console.WriteLine("[Entity.Manager.State: eState.ID]: " + eState.ID);
+                
+                // Assign the ID value to the amount of items in the List, as this value is not used in the list.  
                 eState.ID = eState.List.Count() + 1;
+                
+                // output the new ID value.
                 Console.WriteLine("[Entity.Manager.State: eState.ID]: " + eState.ID);
+                
+                // set the Position and Type and then add them to the  
                 eState.Position = pos;
                 eState.Type = ent;
                 eState.List.Add(eState);
+                
                 Console.WriteLine("Number of entities: " + eState.List.Count());
+                
                 return eState.List;
             }
 
@@ -54,26 +57,37 @@ namespace PacGunMan.Entities
                     return GetInformation(ID);
                 }
             }
-
+           
+            // Grab all information contained within the List. 
             public static string GetInformation()
             {
+                //Create new local instance of the current class 
                 State eState = new State();
+                // Initialize variable with a string to prevent string from being null or undefined.
                 string list = "";
+                // Check if the list has any value. Otherwise, return "No Entities" when there are no elements.
                 if (eState.List.Count() > 0) {
+                    //For every element in the List, add the ID, Type and posititon to the list variable.
                     foreach (var x in eState.List)
                     {
                         list += "ID: " + x.ID.ToString() + "\tCharacter: " + x.Type + "\tPosition: " + x.Position + "\n";
                     }
+                    // return the lsit variable
                     return list;
+                
                 } else {
                     return "No Entities";
                 }
             }
-
+    
+            // Get information about the specific entity using a valid ID.
             public static string GetInformation(int ID)
             {
+                // create a local instance of the current class.
                 State eState = new State();
+                // Initialize variable with a string to prevent string from being null or undefined.
                 string list = "";
+                //For every element in the List, if the ID is the same as the current element, output the Type and return the Type and Position.
                 foreach (var x in eState.List)
                 {
                     if (x.ID == ID)
@@ -82,6 +96,7 @@ namespace PacGunMan.Entities
                         return "Entity Type: " + x.Type + "\nPosition: " + x.Position;
                     }
                 }
+                // return the list.
                 return list;
             }
         }
