@@ -7,7 +7,7 @@ namespace PacGunMan.Entities
         public class State
         {
 
-            /* intialize  */
+            /* intialize variables */
             public int ID { get; set; }
             public string Type { get; set; } = "";
             public int[] Position { get; set; } = new int[2];
