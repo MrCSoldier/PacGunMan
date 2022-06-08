@@ -49,8 +49,10 @@ namespace PacGunMan.Entities
                 eState.List.ElementAt(id).Type = ent;
                 // check if the index with the ID Speified exist
             }
-
+            
+            // function checks if there are any values passed on. Default is -1/
             public string GetInfo(int ID = -1) {
+                // if the ID is smaller than 0, call the argument-less function. otherwise, call the function that needs an argument. 
                 if (ID < 0) {
                     return GetInformation();
                 } else {
