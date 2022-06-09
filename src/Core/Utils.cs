@@ -1,3 +1,4 @@
+/*
 using PacGunMan.Entities;
 namespace PacGunMan
 {
@@ -5,7 +6,9 @@ namespace PacGunMan
     {
         public static string GetChar(int x, int y)
         {
+            
             return Map.GetMap("test").Item1[x, y].ToString();
         }
     }
 }
+*/
